@@ -26,5 +26,26 @@
         "nom": "mbappe",
         "numero": 7,
         "poste": "attaquant"
+    },
+    {
+        "id": 5,
+        "idEquipe": 1,
+        "nom": "verrati",
+        "numero": 5,
+        "poste": "milieu"
+    },
+    {
+        "id": 6,
+        "idEquipe": 1,
+        "nom": "navas",
+        "numero": 1,
+        "poste": "gardien"
+    },
+    {
+        "id": 7,
+        "idEquipe": 2,
+        "nom": "griezmann",
+        "numero": 7,
+        "poste": "attaquant"
     }
 ]
