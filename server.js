@@ -1,6 +1,11 @@
 const express = require('express');
+const cors = require('cors');
+
 const app = express();
 app.use(express.json());
+
+
+  
 
 app.listen(
     5000,
@@ -15,6 +20,12 @@ MongoClient.connect(url, function (err, client) {
     console.log("Connexion réussie avec Mongo");
     db = client.db(dbName);
 })
+
+var corsOptions = {
+    origin: "*"
+  };
+    
+app.use(cors(corsOptions));
 
 //retourne toute les equipe
 app.get('/equipes', (req,res) => {
